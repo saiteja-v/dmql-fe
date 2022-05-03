@@ -13,7 +13,14 @@ const Data = ({ data }) => {
     };
   });
 
-  return <Table columns={columns} dataSource={data.data} scroll={{ y: 260 }} />;
+  return (
+    <Table
+      style={{ marginTop: "2vh" }}
+      columns={columns}
+      dataSource={data.data}
+      scroll={{ y: 350 }}
+    />
+  );
 };
 
 export default Data;

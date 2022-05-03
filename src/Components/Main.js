@@ -47,6 +47,7 @@ const Main = () => {
         shape="round"
         icon={<SearchOutlined />}
         onClick={onQuerySubmit}
+        style={{ marginTop: "2vh" }}
       >
         search
       </Button>
