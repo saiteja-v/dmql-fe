@@ -24,7 +24,7 @@ const Main = () => {
     if (value) {
       try {
         const data = await fetch(
-          "https://mocki.io/v1/02305ea9-f8dd-4603-9c2f-4f03640f0b5",
+          "http://127.0.0.1:5000/crudoperations",
           {
             method: "POST",
             body: JSON.stringify({ query: value }),
